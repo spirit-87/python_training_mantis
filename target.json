@@ -1,0 +1,18 @@
+{
+  "web": {
+      "baseUrl": "http://localhost:8080/mantisbt-1.2.20/login_page.php",
+      "username": "admin",
+      "password": "secret"
+      },
+  "webadmin": {
+    "baseUrl": "http://localhost:8080/mantisbt-1.2.20/login_page.php",
+    "username": "administrator",
+    "password": "root"
+      },
+    "db": {
+      "host": "192.168.64.2",
+      "name": "bugtracker",
+      "user": "root_elena",
+      "password": "elenka"
+      }
+}
