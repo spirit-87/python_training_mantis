@@ -85,7 +85,7 @@ class ProjectHelper:
 
     def select_project_by_id(self, id):
         wd = self.app.wd
-        id_string = "manage_proj_edit_page.php?project_id="+id
+        id_string = "manage_proj_edit_page.php?project_id="+str(id)
         # select first group = click first checkbox
         wd.find_element_by_css_selector("a[href='%s']" % id_string).click()
 

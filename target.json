@@ -1,18 +1,26 @@
 {
   "web": {
-      "baseUrl": "http://localhost:8080/mantisbt-1.2.20/login_page.php",
-      "username": "admin",
-      "password": "secret"
+      "baseUrl": "http://localhost:8080/mantisbt-1.2.20"
       },
   "webadmin": {
-    "baseUrl": "http://localhost:8080/mantisbt-1.2.20/login_page.php",
     "username": "administrator",
     "password": "root"
       },
-    "db": {
-      "host": "192.168.64.2",
-      "name": "bugtracker",
-      "user": "root_elena",
-      "password": "elenka"
-      }
+  "db": {
+    "host": "192.168.64.2",
+    "name": "bugtracker",
+    "user": "root_elena",
+    "password": "elenka"
+    },
+  "ftp": {
+    "host": "192.168.64.2",
+    "username": "tester",
+    "password": "test"
+  },
+  "james": {
+    "host": "localhost",
+    "port": 4555,
+    "username": "root",
+    "password": "root"
+  }
 }
